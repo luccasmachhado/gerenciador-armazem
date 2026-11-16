@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "GerenciadorDeEstoque",
+    "slug": "GerenciadorDeEstoque",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F7F9F6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "O aplicativo usa a câmera para ler QR Codes de alimentos."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permitir que o Despensa Inteligente use a câmera para ler QR Codes."
+        }
+      ]
+    ]
+  }
+}
